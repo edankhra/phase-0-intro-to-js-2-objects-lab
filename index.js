@@ -7,7 +7,7 @@ let employee = {
     const newobj = {...employee};
     newobj[key] = value;
     return newobj;
-    return { ...employee, [key]: value };
+   
   }
   
   function destructivelyUpdateEmployeeWithKeyAndValue(employee, key, value) {
